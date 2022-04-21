@@ -1,0 +1,15 @@
+body {
+    background: rgb(41, 9, 41, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 32px;
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
+}
