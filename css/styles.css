@@ -26,7 +26,7 @@ p {
 .container {
     background-color: rgb(255, 255, 255, 0.5);
     margin: auto;
-    height: 1913px;
+    height: 1880px;
     width: 1000px;
 }
 
@@ -45,6 +45,8 @@ nav {
 .photo {
     box-shadow: 4px 8px 10px rgba(2, 0, 36, 1);
     margin-bottom: 10px;
+    width: 230px;
+    height: 150px;
 }
 
 .pic {
@@ -62,9 +64,10 @@ ul li {
     background: transparent url("../img/galaxy4.jpg") no-repeat center;
     text-align: center;
     height: 40px;
-    width: 100px;
+    width: 150px;
     margin-top: 20px;
     box-shadow: 4px 8px 10px rgba(0, 212, 255, 1);
+    padding: 7px;
 }
 
 ul li a {
@@ -74,8 +77,9 @@ ul li a {
 }
 
 ul li:hover {
-    background: rgb(0, 212, 255);
-    background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(2, 0, 36, 1) 100%);
+    /* background: rgb(0, 212, 255);
+    background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(2, 0, 36, 1) 100%); */
+    background: transparent url("../img/galaxy8.jpg") no-repeat right;
     box-shadow: 4px 8px 10px rgb(255, 255, 255);
 }
 
@@ -92,7 +96,7 @@ ul li a:hover {
 footer {
     background: rgb(0, 212, 255);
     background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(2, 0, 36, 1) 100%);
-    padding: 5px;
+    padding: 10px;
     box-shadow: 4px 8px 10px rgba(2, 0, 36, 1);
     height: 80px;
 }
@@ -104,7 +108,7 @@ footer {
 }
 
 
-.fa-galaxy {
+.fa-meteor {
     color: rgb(255, 255, 255);
 }
 
@@ -123,7 +127,7 @@ footer {
 .logo {
     box-shadow: 4px 8px 10px rgb(0, 212, 255, 1);
     height: 60px;
-    width: 80px;
+    width: 100px;
     float: right;
 }
 
