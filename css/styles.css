@@ -1,0 +1,136 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 32px;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
+}
+
+.para {
+    text-align: left;
+}
+
+.container {
+    background-color: rgb(255, 255, 255, 0.5);
+    margin: auto;
+    height: 1913px;
+    width: 1000px;
+}
+
+nav {
+    background: rgb(0, 212, 255);
+    background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(2, 0, 36, 1) 100%);
+    padding: 15px;
+    box-shadow: 4px 8px 10px rgba(2, 0, 36, 1);
+    position: sticky;
+    top: 0;
+    left: 1;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+
+.photo {
+    box-shadow: 4px 8px 10px rgba(2, 0, 36, 1);
+    margin-bottom: 10px;
+}
+
+.pic {
+    box-shadow: 4px 8px 10px rgba(2, 0, 36, 1);
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+}
+
+ul li {
+    border: 3px rgb(12, 12, 12);
+    display: inline-block;
+    background: transparent url("../img/galaxy4.jpg") no-repeat center;
+    text-align: center;
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    box-shadow: 4px 8px 10px rgba(0, 212, 255, 1);
+}
+
+ul li a {
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+ul li:hover {
+    background: rgb(0, 212, 255);
+    background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(2, 0, 36, 1) 100%);
+    box-shadow: 4px 8px 10px rgb(255, 255, 255);
+}
+
+ul li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.jumbotron {
+    background: transparent url("../img/galaxy7.jpg") repeat left;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: rgb(0, 212, 255);
+    background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(2, 0, 36, 1) 100%);
+    padding: 5px;
+    box-shadow: 4px 8px 10px rgba(2, 0, 36, 1);
+    height: 80px;
+}
+
+.bottom {
+    color: rgb(255, 255, 255);
+    float: left;
+    margin-top: 15px;
+}
+
+
+.fa-galaxy {
+    color: rgb(255, 255, 255);
+}
+
+.fa-facebook {
+    color: rgb(255, 255, 255);
+}
+
+.fa-instagram {
+    color: rgb(255, 255, 255);
+}
+
+.fa-youtube {
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    box-shadow: 4px 8px 10px rgb(0, 212, 255, 1);
+    height: 60px;
+    width: 80px;
+    float: right;
+}
+
+.copy {
+    float: right;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
