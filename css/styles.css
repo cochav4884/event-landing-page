@@ -116,7 +116,7 @@ b {
 }
 
 .flip-box:hover .flip-box-inner {
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
 }
 
 .flip-box-front,
@@ -136,7 +136,7 @@ b {
 .flip-box-back {
     background-color: dodgerblue;
     color: white;
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
 }
 
 .photo {
