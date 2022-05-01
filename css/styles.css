@@ -7,11 +7,11 @@ body {
 .container {
     background-color: rgb(255, 255, 255, 0.5);
     margin: auto;
-    height: 2438px;
+    height: 2457px;
     width: 1000px;
 }
 
-nav {
+.navbar {
     background: rgb(0, 212, 255);
     background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(2, 0, 36, 1) 100%);
     padding: 15px;
@@ -23,12 +23,14 @@ nav {
     margin-bottom: 10px;
 }
 
-.pic {
+.top-logo {
     box-shadow: 4px 8px 10px rgba(2, 0, 36, 1);
+    margin-right: 5px;
 }
 
 ul {
-    list-style-type: none;
+    list-style-type: none;  
+    position: relative;
     float: right;
 }
 
@@ -42,6 +44,7 @@ ul li {
     margin-top: 20px;
     box-shadow: 4px 8px 10px rgba(0, 212, 255, 1);
     padding: 7px;
+    margin: 5px;
 }
 
 ul li a {
